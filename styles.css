@@ -1,0 +1,169 @@
+#cs1300-gallery {
+  background-color: #f7f7f7;
+  font-family: Verdana, sans-serif;
+  border: 2px solid #000000;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+h1 {
+  font-size: 70px;
+  font-family: 'Bowlby One', cursive;
+  color: #460101;
+  text-align: center;
+  margin: 0;
+  transition: opacity 0.2s;
+}
+
+h2 {
+  font-size: 25px;
+  color: #e46a00;
+  font-style: italic;
+  font-family: 'Neucha', cursive; 
+  text-align: center;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #9e4949;
+  font-family: 'Neucha', cursive; 
+  text-align: center;
+  margin: 20px;
+}
+
+a { 
+  text-decoration: none; 
+  color:#460101;
+}
+
+a:visited { 
+  text-decoration: none; 
+ }
+
+ a:hover { 
+  text-decoration: none; 
+  color: #9e4949; 
+  border-bottom:3px solid 460101;
+  transition: border-bottom-color 50ms linear 1s;
+}
+
+button {
+  background-color: #f7f7f7;
+  border: 2px solid #460101;
+  color: #460101;
+  font-family: 'Neucha', cursive; 
+  font-size: 30px;
+  padding-top: 10px;
+
+}
+
+
+button:hover {
+  background-color: #9E4949;
+  color: rgb(247, 245, 232);
+}
+
+nav ul {
+  list-style:   none;
+}
+
+nav li {
+  display:  inline-block;
+  margin-right: 40px;
+  margin-left: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  position: center;
+  color: lightblue;
+  font-family: 'Neucha', cursive; 
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Uncomment below if images are way too big.
+Selects all image tags and makes them 500px;
+ */
+img {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-top {
+  display: flex;
+  margin: auto;
+  align-items:center;
+  justify-content:center;
+  height: 92vh;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+  background-color: #f7f7f7;
+  border: 30px solid #460101;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+.box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.box { 
+  width: 25%; 
+  margin: 10px;
+  padding-inline: 20px;
+  padding: 20px;
+  height: 300px; 
+  border: 5px solid #000000;
+  font-size: 20px;
+ }
+
+
+.usability {
+border: 10px solid #000000 ;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Grandstander:wght@500;700&family=Merriweather+Sans:wght@400;700&family=Neucha&family=Public+Sans&family=Skranji:wght@700&display=swap" rel="stylesheet"><script src="app.js" defer></script>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+    <div>
+      <h1>
+        Responsive Redesign
+      </h1>
+      <h2>
+        An analysis and remake of Bagel Gourmet's website
+      </h2>
+      <div>
+        <nav>
+          <ul>
+            <center>
+                <li> <a href="#usability">usability issues</a></li>
+                <li> <a href="#accessibility">accessibility</a></li>
+                <li> <a href="#style">style guide</a></li>
+                <li> <a href="#prototypes">protoypes</a></li>
+                <li> <a href="#redesign">resdesigned website</a></li>
+            </center>
+            </ul>
+        </nav>
+        <div>
+          <h3 STYLE="font-size: 40px">
+            <a href="http://bagelgourmetcafe.com/">ORIGINIAL WEBSITE</a>
+          </h3>
+          <a href="http://bagelgourmetcafe.com/"><img src="original-website.png" class="center"></a>
+          <center>
+            <div style="font-size: 20px; margin: 10px">
+              <i>In the original website, you can see that the font is small and low-contrast and key information is disorganized.</i>
+            </div>
+          </center>
+        </div>
+        <h3 id="usability" STYLE="font-size: 40px">
+          KEY USABILITY ISSUES
+        </h3>
+          <div class="box-wrapper">
+            <div class="box">
+              <h2>small text</h2>
+                <p>
+                - text throughout the website, particularly in the navigation bar, is extremely small and hard to read
+                <p>
+                - title text is indistinguishable from body text
+                <p>
+                  - logo text is tucked away in the corner  
+              </div>
+            <div class="box">
+              <h2>disorganized info</h2>
+                <p>
+                - key information such as location, hours, and how to order online is scattered in blocks of text
+                <p>
+                - redundant information, such as a location tab and a listed location in the left column
+                <p>
+                  - information that is not important is highlighted in red, adding confusion
+              </div>
+            <div class="box">
+              <h2>low-contrast text and elements</h2>
+              <p>
+                - a dark background against similarly colored text makes it hard to read 
+                <p>
+                - text is not high contrast, an issue exacerbated by the small text size
+                <p>
+                  - dark color theme generally makes the site unpleasant to use and look at
+            </div>
+          </div>
+          <h3 id="accessibility" STYLE="font-size: 40px">ACCESSIBILITY</h3>
+          <div class="box-wrapper">
+            <div class="box" style="height: fit-content;">
+              <img src="summary-report.png" class="center" style="height: 400px; width: auto">
+              </div>
+            <div class="box" style="height: fit-content">
+              <h2>WebAIM WAVE TEST</h2>
+                <p>
+                  I thought the WebAIM WAVE program detected all the issues I initially found with the website, and more – with 13 contrast errors and 109 small text errors, it’s clear this website could benefit from some reworking. I also found the website's text to be low contrast and disorganized, which are just a few of the problems the test detected. I was surprised, however, by the extent of the issues. Though I certainly found this website hard to use, the test helped me recognize how harmful these qualities would be for someone who is colorblind or who might struggle to read small text without glasses. 
+              </div>
+          </div>
+      </div>
+      <div>
+        <h3 id="style" STYLE="font-size: 40px">
+          VISUAL STYLE GUIDE
+        </h3>
+        <img src="styleguide.png" class="center" style="height: 600px; width: auto">
+      </div>
+      <div>
+        <h3 id="prototypes" STYLE="font-size: 40px"> 
+          PROTOTYPES
+        </h3>
+        <div>
+          <h2>
+            low-fi prototype
+          </h2>
+          <img src="desktop-wireframe.png" class="center" style="height: 600px; width: auto">
+          <div class="box-wrapper">
+            <div class="box" style="height: fit-content; width: auto">
+              <h2>
+                tablet
+              </h2>
+            <img src="lo-fi-tablet.png" class="center" style="height: 600px; width: auto">
+            </div>
+            <div class="box" style="height: fit-content; width: auto">
+              <h2>
+                mobile
+              </h2>
+            <img src="lo-fi-phone.png" class="center" style="height: 600px; width: auto">
+          </div>
+        </div>
+        <div>
+          <h2>
+            hi-fi prototype
+          </h2>
+          <img src="hi-fi-desktop.png" class="center" style="height: 600px; width: auto">
+          <div class="box-wrapper">
+            <div class="box" style="height: fit-content; width: auto">
+              <h2>
+                tablet
+              </h2>
+            <img src="hi-fi-tablet.png" class="center" style="height: 600px; width: auto">
+            </div>
+            <div class="box" style="height: fit-content; width: auto">
+              <h2>
+                mobile
+              </h2>
+            <img src="hi-fi-mobile.png" class="center" style="height: 600px; width: auto">
+          </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 id="redesign">
+          <a href="redesigned-site.html">REDESIGNED RESPONSIVE PAGE</a>
+          <a href="redesigned-site.html"><img src="redesigned-site-preview.png" class="center" style="height: 600px; width: auto"></a>
+        </h3>
+
+      </div>
+    </div>
+</html>
